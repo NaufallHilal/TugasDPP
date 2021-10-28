@@ -1,0 +1,26 @@
+#include <ncurses.h>
+#include <iostream>
+using namespace std;
+
+int main(){
+	int i;
+	initscr();
+	clear();
+	mvprintw(5,10,"-");
+	mvprintw(6,9,"-");
+	mvprintw(7,8,"-");
+	mvprintw(8,7,"-");
+	mvprintw(9,8,"-");
+	mvprintw(10,9,"-");
+	mvprintw(11,10,"-");
+	
+	mvprintw(6,11,"-");
+	mvprintw(7,12,"-");
+	mvprintw(8,13,"-");
+	mvprintw(9,12,"-");
+	mvprintw(10,11,"-");
+	
+	getch();
+	endwin();
+	
+}
