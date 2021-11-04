@@ -1,0 +1,38 @@
+#include<ncurses.h>
+#include<iostream>
+#include<unistd.h>
+using namespace std;
+
+int main(){
+	
+	initscr();
+	clear();
+	refresh();sleep(1);
+	mvprintw(5,25,"N");
+	refresh();sleep(1);
+	mvprintw(5,26,"A");
+	refresh();sleep(1);
+	mvprintw(5,27,"U");
+	refresh();sleep(1);
+	mvprintw(5,28,"F");
+	refresh();sleep(1);
+	mvprintw(5,29,"A");
+	refresh();sleep(1);
+	mvprintw(5,30,"L");
+	refresh();sleep(1);
+	mvprintw(5,31," ");
+	refresh();sleep(1);
+	mvprintw(5,32,"H");
+	refresh();sleep(1);
+	mvprintw(5,33,"I");
+	refresh();sleep(1);
+	mvprintw(5,34,"L");
+	refresh();sleep(1);
+	mvprintw(5,35,"A");
+	refresh();sleep(1);
+	mvprintw(5,36,"L");
+	refresh();sleep(1);
+	mvprintw(6,25,"____________");
+	getch();
+	endwin();
+}
